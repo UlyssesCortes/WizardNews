@@ -1,7 +1,7 @@
 {
   "name": "wizardnews",
   "version": "1.0.0",
-  "description": "",
+  "description": "a cool news app",
   "scripts": {
     "start": "nodemon app.js"
   },
@@ -12,6 +12,16 @@
     "nodemon": "^1.14.7"
   },
   "dependencies": {
-    "express": "^4.16.2"
-  }
+    "express": "^4.16.2",
+    "morgan": "^1.10.0"
+  },
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UlyssesCortes/WizardNews.git"
+  },
+  "bugs": {
+    "url": "https://github.com/UlyssesCortes/WizardNews/issues"
+  },
+  "homepage": "https://github.com/UlyssesCortes/WizardNews#readme"
 }
